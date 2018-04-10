@@ -3,37 +3,48 @@
 body {
   font: 1em/1.25 Helvetica, Verdana, "Trebuchet MS";
 }
+
 a {
   text-decoration: none;
 }
+
 a:hover {
   text-decoration: underline;
 }
+
 p  {
   font-size: 1.125em;
 }
+
 .center {
   text-align: center;
  }  
+
 .links {
   margin: 1.5em;
+
+}
+
+.primaryColor {
   color: teal;
 }
+
 .line, main, header {
     max-width: 550px;
 }
 
 /* Header ---------------------- */
 header {
-  margin: auto;
-  margin-top: 5em;
+  margin: 5em auto 3em;
   overflow: auto;
 }
+
 #nameAndTitle {
   float: right;
   margin-right: 10%;
   padding: 0;
 }
+
 #portfolioPic {
   display: block;
   width: 9em;
@@ -41,12 +52,14 @@ header {
   float: left;
   height: auto;
 }
+
 #name {
   margin-top: 1em;
   margin-bottom: 0;
   padding: 0;
   font-size: 2em;
 }
+
 #title {
   margin-top: 0;
   padding: 0;
@@ -70,6 +83,18 @@ main {
   margin: auto;
 }
 
+#contact  {
+  text-align: center;
+}
+
+#mailBtn {
+  cursor: pointer;
+  display: inline-block;
+  width: 12em;
+  padding: 1em;
+  border-radius: 5px;
+  box-shadow: 3px 3px 5px grey;
+}
 
 /* Footer ---------------------- */
 footer {
@@ -86,18 +111,21 @@ footer {
     max-width: 90%;
   }
 }
+
 @media (max-width: 500px) {
   header {
     padding: 0 15px;  
   }
+  
   #nameAndTitle, #portfolioPic {
     float: none;
     margin: auto;
   }
+  
   #nameAndTitle {
     margin-right: none;
-    text-align: center;
   }
+  
   #portfolioPic {
   }
   
