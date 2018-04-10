@@ -1,9 +1,9 @@
-/* Element Styles ---------------------- */
+/* Basic Styles ---------------------- */
+
 body {
   font: 1em/1.25 Helvetica, Verdana, "Trebuchet MS";
 }
 a {
-  color: teal;
   text-decoration: none;
 }
 a:hover {
@@ -12,33 +12,23 @@ a:hover {
 p  {
   font-size: 1.125em;
 }
+.center {
+  text-align: center;
+ }  
+.links {
+  margin: 1.5em;
+  color: teal;
+}
+.line, main, header {
+    max-width: 550px;
+}
 
+/* Header ---------------------- */
 header {
   margin: auto;
   margin-top: 5em;
   overflow: auto;
 }
-
-footer {
-  margin: 40px auto;
-}
-
-/* Class Styles ---------------------- */
-.center {
-  text-align: center;
- }  
-.contactLinks {
-  margin: 1.5em;
-}
-.line {
-  margin: 30px auto;
-}
-.goBack {
-  color: black;
-}
-
-/* Id Styles ---------------------- */
-
 #nameAndTitle {
   float: right;
   margin-right: 10%;
@@ -64,23 +54,35 @@ footer {
   font-weight: none;
   font-size: 1.5em;
 }
-#bio {
-  margin: 0 auto;
-  width: 90%;
+
+/* Nav ---------------------- */
+nav ul {
+  list-style-type: none;
+  padding-left: 0;
 }
 
-/* Extra ---------------------- */
-.line,
-#bio,
-header {
-    max-width: 550px;
+nav ul li {
+  display: inline;
+}
+
+/* Main ---------------------- */
+main {
+  margin: auto;
+}
+
+
+/* Footer ---------------------- */
+footer {
+  margin: 40px auto;
+}
+ 
+.line {
+  margin: 30px auto;
 }
 
 /* Media Queries ---------------------- */
-@media (max-width: 550px) {
-  .line,
-  #bio,
-  header {
+@media (max-width: 600px) {
+  .line, main, header {
     max-width: 90%;
   }
 }
@@ -88,8 +90,7 @@ header {
   header {
     padding: 0 15px;  
   }
-  #nameAndTitle, 
-  #portfolioPic {
+  #nameAndTitle, #portfolioPic {
     float: none;
     margin: auto;
   }
