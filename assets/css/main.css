@@ -83,6 +83,14 @@ main {
   margin: auto;
 }
 
+#portfolio {
+  text-align: center;
+}
+
+#portfolio img {
+  max-width: 500px;
+}
+
 #contact  {
   text-align: center;
 }
