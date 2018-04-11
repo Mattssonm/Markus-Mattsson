@@ -30,7 +30,7 @@ p  {
 }
 
 .line, main, header {
-    max-width: 550px;
+    max-width: 650px;
 }
 
 /* Header ---------------------- */
@@ -87,8 +87,28 @@ main {
   text-align: center;
 }
 
+#flexContainer {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-between;
+}
+
+#flexContainer article {
+  flex: 1;
+  margin-bottom: 20px;
+}
+
 #portfolio img {
-  max-width: 500px;
+  max-width: 300px;
+  border-radius: 5px;
+  box-shadow: 3px 3px 5px grey;
+}
+
+.moreInfo {
+    max-height: 0;
+    opacity: 0;
+    overflow: hidden;
+    transition: max-height 0.4s ease 0s;
 }
 
 #contact  {
@@ -114,7 +134,7 @@ footer {
 }
 
 /* Media Queries ---------------------- */
-@media (max-width: 600px) {
+@media (max-width: 700px) {
   .line, main, header {
     max-width: 90%;
   }
@@ -132,9 +152,6 @@ footer {
   
   #nameAndTitle {
     margin-right: none;
-  }
-  
-  #portfolioPic {
   }
   
   .contactLinks {
