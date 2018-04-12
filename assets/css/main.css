@@ -102,13 +102,19 @@ main {
   max-width: 300px;
   border-radius: 5px;
   box-shadow: 3px 3px 5px grey;
+  cursor: pointer;
+  transition: .5s ease;
+}
+
+#portfolio img:hover {
+  max-width: 310px;
+  opacity: 0.7;
 }
 
 .moreInfo {
     max-height: 0;
-    opacity: 0;
     overflow: hidden;
-    transition: max-height 0.4s ease 0s;
+    transition: max-height .5s;
 }
 
 .tags {
@@ -143,6 +149,10 @@ footer {
   #nameAndTitle, #portfolioPic {
     float: none;
     margin: auto;
+  }
+  
+  #flexContainer {
+    flex-direction: column;
   }
 }
 

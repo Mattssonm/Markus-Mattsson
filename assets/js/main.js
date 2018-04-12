@@ -5,25 +5,10 @@ window.addEventListener("load", event => {
   //Functions
   function slideDown (element) {
     element.style.maxHeight = "1000px";
-    element.style.opacity = '1';
   };
   
   function slideUp(element) {
     element.style.maxHeight = '0';
-    once( 1, function () {
-      element.style.opacity = '0';
-    });
-  };
-  
-  function once (seconds, callback) {
-    let counter = 0;
-    let time = window.setInterval( () => {
-      counter++;
-      if ( counter >= seconds ) {
-        callback();
-        window.clearInterval( time );
-      }
-    }, 400 );
   };
   
   //Event Listener
