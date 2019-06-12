@@ -1,51 +1,78 @@
 <!DOCTYPE html>
-<html lang="sv" dir="ltr">
-  <head>
-    <meta charset="utf-8">
-    <title>Markus Mattsson</title>
-    <link rel="stylesheet" type="text/css" href="assets/main.css">
-  </head>
-  <body>
-    <h1>Markus Mattsson</h1>
-    <h2>Musik för våra viktigaste stunder</h2>
-    <h3>Bröllop, dop och begravning</h3>
-    <div id="videoDiv"
-    <!-- Lyckans minut -->
-    <iframe
-      src="https://www.youtube.com/embed/kwaCBSjPfd4?rel=0"
-      frameborder="0"
-      allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture"
-      allowfullscreen>
-    </iframe>
-    <!-- Du kan gå din egen väg -->
-    <iframe
-      src="https://www.youtube.com/embed/rQE9_kEPieY?rel=0"
-      frameborder="0"
-      allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture"
-      allowfullscreen>
-    </iframe>
-    <!-- Hela livet finns plötsligt hos dig -->
-    <iframe
-      src="https://www.youtube.com/embed/XPY-7z02S2s?rel=0"
-      frameborder="0"
-      allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture"
-      allowfullscreen>
-    </iframe>
-    </div>
-    <div>
-      <h3>Priser (ink. moms)</h3>
-      <ul>
-        Solosång:
-        <li>2000 kr för en låt</li>
-        <li>3000 kr för två låtar</li>
-        <li>3750 kr för tre låtar</li>
-        <br>
-        Endast komp eller gemensam sång
-        <li>500 kr per låt</li>
-      </ul>
-    </div>
-    <div>
-      <p>För bokning maila markusmattsson90@gmail.com eller ring 0738180343</p>
-    </div>
-  </body>
+<html>
+<head>
+  <title>Markus Mattsson</title>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <link rel="stylesheet" type="text/css" href="../assets/css/normalize.css">
+  <link rel="stylesheet" type="text/css" href="../assets/css/fontawesome-all.min.css">
+  <link rel="stylesheet" type="text/css" href="../assets/css/main.css">
+  <link rel="stylesheet" type="text/css" href="../assets/css/music.css">
+  <script src="../assets/js/main.js"></script>
+</head>
+<body>
+    <header>
+      <img id="portfolioPic" src="../assets/images/cropped markus.jpg" alt="Markus Mattsson">
+      <div id="nameAndTitle" class="center">
+        <h1 id="name">Markus Mattsson</h1>
+        <p id="title">Musik för våra viktigaste stunder</p>
+      </div>
+    </header>
+    <main>
+      <section id="bio">
+        <p>Jag är uppvuxen med musiken och började spela piano när jag var 7 år. Under åren har jag spelat i många olika band, jobbat som kyrkomusiker och uppträtt på hundratals konserter. Nu när jag är 29 år så är jag så tacksam för att jag får lov att fortsätta använda musiken för att hylla livets berg och dalar</p>
+        <p>Oavsett om du vill ha musik till bröllop, dop, begravning eller annat så är jag här för att hjälpa er skapa en minnesvärd stund.</p>
+      </section>
+      <hr class="line">
+      <section id="portfolio">
+        <div id="flexContainer">
+          <!-- Lyckans minut -->
+          <iframe
+            src="https://www.youtube.com/embed/kwaCBSjPfd4?rel=0"
+            frameborder="0"
+            allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture"
+            allowfullscreen>
+          </iframe>
+          <!-- Du kan gå din egen väg -->
+          <iframe
+            src="https://www.youtube.com/embed/rQE9_kEPieY?rel=0"
+            frameborder="0"
+            allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture"
+            allowfullscreen>
+          </iframe>
+          <!-- Hela livet finns plötsligt hos dig -->
+          <iframe
+            src="https://www.youtube.com/embed/XPY-7z02S2s?rel=0"
+            frameborder="0"
+            allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture"
+            allowfullscreen>
+          </iframe>
+        </div> <!-- flexContainer -->
+      </section>
+      <section>
+        <div>
+          <h3>Priser</h3>
+          <p>Solosång:
+          <ul>
+            <li>2000 kr för en låt</li>
+            <li>3000 kr för två låtar</li>
+            <li>3750 kr för tre låtar</li>
+          </ul>
+          <p>Endast komp eller gemensam sång:</p>
+          <ul>
+            <li>500 kr per låt</li>
+          </ul>
+        </div>
+      </section>
+      <hr class="line">
+      <section id="contact" class="center">
+        <h3 class="primaryColor">Bokning</h3>
+        <p>För bokning maila markusmattsson90@gmail.com eller ring 0738180343</p>
+        <a href="mailto:markusmattsson90@gmail.com" rel="nofollow" title="Send me an email"><button id="mailBtn" ><i class="fa fa-envelope primaryColor" aria-hidden="true"></i> Skicka Mail</button></a>
+      </section>
+    </main>
+    <footer class="center">
+      <a href="https://www.youtube.com/channel/UCpehimQeILGRfgU8cPL0vkQ" class="links primaryColor" rel="nofollow" target="_blank"  title="Check out my Youtube"><i class="fab fa-youtube" aria-hidden="true"></i> Youtube </a>
+    </footer>
+</body>
 </html>

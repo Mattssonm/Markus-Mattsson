@@ -1,0 +1,8 @@
+#flexContainer {
+  flex-direction: column;
+}
+
+#flexContainer iframe {
+  padding-bottom: 20px;
+  min-height: 300px;
+}
