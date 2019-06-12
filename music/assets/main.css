@@ -1,0 +1,18 @@
+body {
+ width: 95%;
+}
+
+h1, h2, h3 {
+  text-align: center
+}
+
+#videoDiv {
+  display: flex;
+  flex-direction: column;
+  margin: auto;
+}
+
+#videoDiv iframe {
+  padding-bottom: 20px;
+  min-height: 250px;
+}
