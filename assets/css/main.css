@@ -18,7 +18,7 @@ p  {
 
 .center {
   text-align: center;
- }  
+ }
 
 .links {
   margin: 1.5em;
@@ -135,7 +135,7 @@ main {
 footer {
   margin: 40px auto;
 }
- 
+
 .line {
   margin: 30px auto;
 }
@@ -145,12 +145,12 @@ footer {
   .line, main, header {
     max-width: 90%;
   }
-  
+
   #nameAndTitle, #portfolioPic {
     float: none;
     margin: auto;
   }
-  
+
   #flexContainer {
     flex-direction: column;
   }
@@ -158,13 +158,13 @@ footer {
 
 @media (max-width: 500px) {
   header {
-    padding: 0 15px;  
+    padding: 0 15px;
   }
-  
+
   #nameAndTitle {
     margin-right: none;
   }
-  
+
   .contactLinks {
     margin: 10px;
   }
