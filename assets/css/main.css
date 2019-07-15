@@ -33,6 +33,14 @@ p  {
     max-width: 650px;
 }
 
+.removeDot {
+  list-style-type: none;
+}
+
+.bold {
+  font-weight: bold;
+}
+
 /* Header ---------------------- */
 header {
   margin: 5em auto 3em;
